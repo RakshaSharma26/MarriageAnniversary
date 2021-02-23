@@ -1,0 +1,102 @@
+@media(max-width:425px) and (min-width:320px) {
+    .name h1 {
+        padding: 10px;
+        flex-direction: column;
+    }
+    #i4 {
+        width: 40%;
+    }
+    #i3 {
+        width: 40%;
+        bottom: 2%;
+    }
+    .wish p {
+        margin-left: 10px;
+        font-size: 18px;
+        width: 85%;
+        line-height: 1.6;
+    }
+    .pooh {
+        width: 50%;
+    }
+    .blow {
+        padding: 10px;
+        min-height: 200px;
+    }
+    .blow p {
+        font-size: 18px;
+    }
+    .candles-blow {
+        width: 50%;
+    }
+    .blank {
+        min-height: 150px;
+    }
+    .last {
+        width: 35%;
+    }
+    .balloon img {
+        width: 30px;
+    }
+    .cake-cutting #i1 {
+        position: absolute;
+        top: 60%;
+        left: 5%;
+        width: 30%;
+    }
+    .cake-cutting #i2 {
+        position: absolute;
+        top: 60%;
+        right: 5%;
+        transform: scaleX(-1);
+        width: 30%;
+    }
+    .holder {
+        width: 280px;
+    }
+    .holder2 {
+        width: 50px;
+        height: 90px;
+    }
+    .holder:before {
+        width: 150px;
+        top: 99px;
+        left: 68px;
+    }
+    .cake {
+        width: 210px;
+        height: 110px;
+        top: -100px;
+        left: -102px;
+    }
+    .candle {
+        top: -169px;
+        left: 1px;
+    }
+    .candle1 {
+        top: -185px;
+        left: 7px;
+    }
+    .flame {
+        top: -205px;
+        left: -1.5px;
+        animation: flame 0.5s infinite;
+    }
+    #ss img {
+        left: 0;
+        width: 92%;
+    }
+    .img32 {
+        animation-duration: 17s;
+        left: 92.8%;
+        display: none;
+    }
+    .name {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .blow {
+        min-height: 50px;
+    }
+}
